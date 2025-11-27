@@ -1,0 +1,9 @@
+/* min-width: 992px */
+
+div.miejsce {
+    width: 23%;
+}
+
+div.wszystkie_miejsca{
+    max-width: 1200px;
+}

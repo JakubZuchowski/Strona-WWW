@@ -1,0 +1,71 @@
+/* min-width: 728px */
+
+
+
+/* MIEJSCA */
+
+div.miejsce {
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+div.wszystkie_miejsca{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+div.miejsce img{
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+/* KONTAKTY */
+div.wszystkie_kontakty{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+
+
+
+
+/* KOMENTARZE */
+div{
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    flex-direction: column;
+    min-height: 100px;
+}
+
+
+
+
+
+/* NEWSLETTER */
+div.newsletter-box{
+    max-width: 728px;
+}
+
+section.newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* MAPA */
+section.map iframe{
+    max-width: 728px;
+}
