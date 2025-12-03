@@ -1,0 +1,78 @@
+/* min-width: 728px */
+
+
+
+/* MIEJSCA */
+
+div.miejsce {
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+div.wszystkie_miejsca{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+div.miejsce img{
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+/* KONTAKTY */
+div.wszystkie_kontakty{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+
+
+
+
+/* KOMENTARZE */
+.wszystkie_komentarze{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 100px;
+}
+
+.opinia{
+    width: 30%;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+
+
+
+
+/* NEWSLETTER */
+div.newsletter-box{
+    max-width: 728px;
+}
+
+section.newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* MAPA */
+section.map iframe{
+    max-width: 728px;
+}
+

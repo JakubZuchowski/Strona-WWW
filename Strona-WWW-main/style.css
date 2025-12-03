@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Comic Relief", system-ui;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+/* STOPKA */
+
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #011f4b;
+    color: white;
+    text-align: center;
+    font-size: 80%;
+}
+
+img.social{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+
+
+
+
+
+/* NAGŁÓWEK */
+
+header{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/23/17/50/buildings-6819311_960_720.jpg');
+    background-position: 57% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    color: white;
+}
+
+
+
+
+ /* MAPA */
+
+section.map {
+    padding: 10px;
+}
+
+section.map iframe{
+    width: 100%;
+}
+
+
+
+
+
+/* KONTAKTY */
+
+section.contact {
+    padding: 10px;
+}
+
+div.kontakt{
+    margin-bottom: 10px;
+}
+
+
+
+div.kontakt i{
+    font-size: 50px;
+    color: #011f4b;
+    border: 5px solid #011f4b;
+    padding: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+
+
+
+
+/* NEWSLETTER */
+section.newsletter {
+    background-color: #808fa5;
+    padding: 10px 20px;
+}
+
+section.newsletter h2{
+    text-transform: uppercase;
+    margin-bottom: 10px 0px;
+}
+
+section.newsletter form{
+    margin: 10px 0;
+}
+
+section.newsletter form .newsletter-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+section.newsletter form .newsletter-inputs input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 10px;
+    border: none;
+}
+
+
+
+
+
+/* MIEJSCA */
+section.miejsca{
+    padding: 10px;
+}
+
+section.miejsca div.miejsce p {
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+div.miejsce img {
+    width: 100%;
+}
+
+.wszystkie_miejsca {
+    width: 100%;
+}
+
+div.miejsce{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* OPINIE */
+section.komentarze {
+    padding: 10px;
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/23/17/50/buildings-6819311_960_720.jpg');
+    background-position: 57% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.komentarze .opinia{
+    background: rgba(255, 255, 255, 0.50);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+section.komentarze .opinia p:first-child {
+    text-align: center;
+    line-height: 1.3;
+}
+
+section.komentarze .opinia p:last-child{
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.button{
+    background-color: #011f4b;
+    color: white;
+    border: 1px #011f4b solid;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+
+.button2{
+    background-color: #011f4b;
+    color: white;
+    border: 1px #011f4b solid;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+h2.h2{
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+
+.flex_column_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
